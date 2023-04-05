@@ -2,13 +2,10 @@
 
 Neste repositorio estarão armazenados códigos de programação web para futuras consulta caso necessário.
 
-O objetivo deste repositório é o desenvolvimento e compartilhamento de meus conhecimentos com as linguagens web e com as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários no mesmo até READMEs com Markdown.
+O objetivo deste repositório é desenvolver meus conhecimentos e compartilhar minhas anotações sobre as linguagens web e com as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários neles até READMEs com o Markdown.
 
 <table align="center">
     <tr align="center">
-        <td>
-            Programação Web
-        </td>
         <td>
             <a href="./programacao-web/">./programacao-web/</a>
         </td>
@@ -21,9 +18,6 @@ O objetivo deste repositório é o desenvolvimento e compartilhamento de meus co
     </tr>
     <tr align="center">
         <td>
-            CFBCursos 
-        </td>
-        <td>
             <a href="./cfb-cursos/">./cfb-cursos/</a>
         </td>
         <td align="left">
@@ -35,4 +29,4 @@ O objetivo deste repositório é o desenvolvimento e compartilhamento de meus co
     </tr>
 <table>
 
-<h6>by David Propato <a href="https://github.com/Propato">@Propato</a></h6>
+<h6 align="center">by David Propato <a href="https://github.com/Propato">@Propato</a></h6>
