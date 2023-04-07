@@ -1,8 +1,8 @@
-# Códigos e notas sobre HTML, CSS e JavaScript
+## Códigos e notas sobre HTML, CSS e JavaScript
 
-Neste repositorio estarão armazenados códigos de programação web para futuras consulta caso necessário.
+### Neste repositorio estão armazenados códigos de programação web para futuras consulta caso necessário.
 
-O objetivo deste repositório é desenvolver meus conhecimentos e principalmente fixa-los. Compartilhando também minhas anotações sobre as linguagens web e exercitando as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários neles até READMEs com o Markdown.
+O objetivo deste repositório é desenvolver meus conhecimentos e principalmente fixa-los. Compartilhando também minhas anotações sobre as linguagens web e exercitando as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários até READMEs com o Markdown.
 
 Os códigos HTML foram finalizados e os de CSS serão iniciado. Após a conclusão do curso da linguagem de estilização CSS, será feito o de JavaScript.
 
@@ -27,7 +27,7 @@ Os códigos e notas aqui registrados foram desenvolvidas usando diversas fontes,
             <img alt="Icone CSS" title="CSS" height="60" src="https://user-images.githubusercontent.com/84464307/230533182-9d821f2f-d66b-49c6-8bb3-1e8aaea56d61.svg">
         </td>
         <td>
-            <a href="./css/">CSS Folders/</a>
+            <a href="./css/">CSS Folders</a>
         </td>
         <td align="left">
             In progress :gear:
@@ -38,7 +38,7 @@ Os códigos e notas aqui registrados foram desenvolvidas usando diversas fontes,
             <img alt="Icone JavaScript" title="JavaScript" height="60" src="https://user-images.githubusercontent.com/84464307/230533252-33286c2d-3291-4307-91f1-c5fe0719237b.svg">
         </td>
         <td>
-            <a href="./javascript/">JavaScript Folders/</a>
+            <a href="./javascript/">JavaScript Folders</a>
         </td>
         <td align="left">
             Not started :x:
