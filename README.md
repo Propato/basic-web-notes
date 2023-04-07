@@ -2,7 +2,7 @@
 
 Neste repositorio estarão armazenados códigos de programação web para futuras consulta caso necessário.
 
-O objetivo deste repositório é desenvolver meus conhecimentos e compartilhar minhas anotações sobre as linguagens web e com as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários neles até READMEs com o Markdown.
+O objetivo deste repositório é desenvolver meus conhecimentos e principalmente fixa-los. Compartilhando também minhas anotações sobre as linguagens web e com as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários neles até READMEs com o Markdown.
 
 <table align="center">
     <tr align="center">

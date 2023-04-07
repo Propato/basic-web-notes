@@ -2,7 +2,9 @@
 
 Aqui estão os códigos e notas desenvolvidas com os cursos online de <a href="https://www.youtube.com/watch?v=nPEpaft1y1k&t=1593s">HTML<a>, <a href="https://www.youtube.com/watch?v=w1J6gY40yMo">CSS<a> e <a href="https://www.youtube.com/watch?v=McKNP3g6VBA">JavaScript<a> no canal <a href="https://www.youtube.com/@programacaoweb">Programação Web<a> no youtube.
 
-Por enquanto, apenas os códigos HTML estão sendo desenvolvidos. Após a conclusão do curso da linguagem de marcação será realizado o curso de estilização CSS e depois o de JavaScript.
+Os códigos HTML foram finalizados e os de CSS serão iniciado. Após a conclusão do curso da linguagem de estilização CSS, será feito o de JavaScript.
+
+Na pasta <a href="./html/">html</a> estão os códigos html finalizados, neles não há nenhuma estrutura elaborada ou pagina desenvolvida, são apenas códigos exemplos e notas tomadas durante as aulas para que possam servir de consulta caso necessário.
 
 # Ferramentas
 
