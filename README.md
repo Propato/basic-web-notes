@@ -1,14 +1,14 @@
-## Códigos e notas sobre HTML, CSS e JavaScript
+## Codes and notes on HTML, CSS, and JavaScript
 
-### Neste repositorio estão armazenados códigos de programação web para futuras consulta caso necessário.
+### This repository stores web programming codes for future reference if necessary.
 
-O objetivo deste repositório é desenvolver meus conhecimentos e principalmente fixa-los. Compartilhando também minhas anotações sobre as linguagens web e exercitando as ferramentas Git e GitHub e toda a documentação de códigos, desde comentários até READMEs com o Markdown.
+The objective of this repository is to develop my knowledge and, mainly, to fix it. It also shares my notes on web languages and practices Git and GitHub tools, as well as all code documentation, from comments to READMEs with Markdown.
 
-Os códigos HTML foram finalizados e os de CSS serão iniciado. Após a conclusão do curso da linguagem de estilização CSS, será feito o de JavaScript.
+The HTML codes have been completed, and the CSS codes started. After completing the CSS styling language course, the JavaScript codes will be developed.
 
-Na pasta <a href="./html/">html</a> estão os códigos html finalizados, neles não há nenhuma estrutura elaborada ou pagina desenvolvida, são apenas códigos exemplos e notas tomadas durante as aulas para que possam servir de consulta caso necessário.
+In the HTML folder, finalized HTML codes are stored. They do not have any elaborate structure or developed pages; they are only code examples and notes taken during the classes that can serve as a reference if necessary.
 
-Os códigos e notas aqui registrados foram desenvolvidas usando diversas fontes, mas os cursos online de <a href="https://www.youtube.com/watch?v=nPEpaft1y1k&t=1593s">HTML<a>, <a href="https://www.youtube.com/watch?v=w1J6gY40yMo">CSS<a> e <a href="https://www.youtube.com/watch?v=McKNP3g6VBA">JavaScript<a> no canal <a href="https://www.youtube.com/@programacaoweb">Programação Web<a> no youtube foram uma das fontes principais.
+The codes and notes recorded here were developed using various sources, but the online courses on <a href="https://www.youtube.com/watch?v=nPEpaft1y1k&t=1593s">HTML</a>, <a href="https://www.youtube.com/watch?v=w1J6gY40yMo">CSS</a>, and <a href="https://www.youtube.com/watch?v=McKNP3g6VBA">JavaScript</a> on the <a href="https://www.youtube.com/@programacaoweb">Programação Web</a> channel on YouTube were one of the main sources.
 
 <table align="center">
     <tr align="center">
