@@ -8,7 +8,7 @@ The HTML codes have been completed, and the CSS codes started. After completing 
 
 In the HTML folder, finalized HTML codes are stored. They do not have any elaborate structure or developed pages; they are only code examples and notes taken during the classes that can serve as a reference if necessary.
 
-The codes and notes recorded here were developed using various sources, but the online courses on <a href="https://www.youtube.com/watch?v=nPEpaft1y1k&t=1593s">HTML</a>, <a href="https://www.youtube.com/watch?v=w1J6gY40yMo">CSS</a>, and <a href="https://www.youtube.com/watch?v=McKNP3g6VBA">JavaScript</a> on the <a href="https://www.youtube.com/@programacaoweb">Programação Web</a> channel on YouTube were one of the main sources.
+The codes and notes recorded here were developed using various sources, but the online courses on the <a href="https://www.youtube.com/@programacaoweb">Programação Web</a> and <a href="https://www.youtube.com/@cfbcursos">CFB Cursos</a> channels on YouTube were one of the main sources.
 
 <table align="center">
     <tr align="center">
