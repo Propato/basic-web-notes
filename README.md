@@ -1,6 +1,6 @@
-## Codes and notes on HTML, CSS, and JavaScript
+# Codes and notes on HTML, CSS, and JavaScript
 
-### This repository stores web programming codes for future reference if necessary.
+## This repository stores web programming codes for future reference if necessary.
 
 The objective of this repository is to develop my knowledge and, mainly, to fix it. It also shares my notes on web languages and practices Git and GitHub tools, as well as all code documentation, from comments to READMEs with Markdown.
 

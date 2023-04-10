@@ -1,8 +1,0 @@
-Useful semantic tags not included in examples
-
-<article> é usada no HTML para marcar um conteúdo independente e auto-suficiente, como uma notícia, um post de blog, um artigo de opinião, entre outros.
-
-<section> funciona de forma similar a tag <article>, porém ela não é auto-suficiente e se relaciona com o conteudo geral da pagina, sendo uma sessão do todo.
-
-<aside> conteudo separado do conteudo principal, se relaciona como um auxiliar da pagina ou conteudo, como citações, notas, barras laterais ou até propagandas.
-

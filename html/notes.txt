@@ -1,0 +1,13 @@
+Useful VSCode extensions:
+ - indent-rainbow
+ - Live Server
+
+Useful tags not included in examples:
+
+ - <canvas> is a screen area for graphical rendering using JS.
+
+IMAGES:
+
+You can search for free image banks to use without having problems with copyright, you can also search for image compressors online so that the images are lighter.
+The flaticon site has several icons available for use, just like font awesome.
+You can create clickable areas on images using image mapping site searching Image Map Generator (map is a HTML tag)

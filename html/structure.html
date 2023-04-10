@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- Indicates the html version -->
+<html lang="en-US">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!-- determines that the web page will be compatible with internet explorer -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="web page description">
+    <meta name="keywords" content="key-words,html,course,devweb"> <!-- not much used nowadays -->
+    <meta name="author" content="David Propato">
+    
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    
+    <title>Structure</title>
+    
+    <style>
+        body{
+            background-color: gray;
+        }
+        dialog{
+            background-color: rgb(188, 188, 188);
+        }
+    </style>
+    <script>
+        function closeDialog(){
+            document.getElementById("dialog").removeAttribute("open");
+        }
+    </script>
+</head>
+<body>
+    <iframe src="./header.html" frameborder="0" width="100%" height="70px"></iframe>
+
+    <header>
+        <h1>
+            &lt;Header&gt; Represents the header of a session.
+        </h1>
+    </header>
+    
+    <nav>
+        <p>
+            &lt;nav&gt; represents the navigation bar.
+        </p>
+    </nav>
+
+    <article>
+        <p>
+            &lt;article&gt; is used in HTML to mark up independent and self-contained content, such as a news story, a blog post, an opinion piece, and so on.
+        </p>
+    </article>
+
+    <section>
+        <p>
+            &lt;section&gt; works in a similar way to the &lt;article&gt; tag, but it is not self-sufficient and relates to the general content of the page, being a section of the whole.
+        </p>
+    </section>
+
+    <aside>
+        <p>
+            &lt;aside&gt; is a content separate from the main content, whether related as an auxiliary to the page or content, such as quotes, notes, sidebars or even advertisements.
+        </p>
+    </aside>
+
+    <dialog id="dialog" open>
+        <p>
+            &lt;dialog&gt; represents an on-screen dialog box. An 'open' property defines whether the tag is visible or not.
+        </p>
+        <button onclick="closeDialog()">X</button>
+    </dialog>
+
+    <div>
+        <p>
+            &lt;div&gt; is a division tag, it's used to make generic screen and content divisions to organize it.
+        </p>
+    </div>
+
+    <footer>
+        <h2>
+            &lt;footer&gt; Represents the footer of a session.
+        </h2>
+    </footer>
+    
+</body>
+</html>

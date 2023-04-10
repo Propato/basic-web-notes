@@ -1,11 +1,9 @@
-<!DOCTYPE html> <!-- Indicates the html version -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- determines that the web page will be compatible with internet explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="descrição da pagina web">
-    <meta name="keywords" content="palavras-chaves,html,curso,devweb"> <!-- not much used nowadays -->
     <meta name="author" content="David Propato">
 
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
@@ -16,10 +14,10 @@
         }
     </style>
 
-    <title>Index</title>
+    <title>Text</title>
 </head>
 <body>
-    <iframe src="./header.html" frameborder="0" width="100%" height="110px"></iframe>
+    <iframe src="./header.html" frameborder="0" width="100%" height="70px"></iframe>
 
     <h1>Text Settings</h1>
 
@@ -28,6 +26,7 @@
 
     <p>
         <strong>Reports important parts of the content to the browser</strong>
+        <em> Emphasizes the content</em>
     </p>
 
     <p>
@@ -39,13 +38,23 @@
         text<sub>lower</sub>
     </p>
 
+    <span>
+        this is a span
+    </span><br>
+
     <abbr title="Hyper Text Markup Language">HTML</abbr>
 
     <address>
         Street whatever, city yeah, US.
     </address>
+    
+    <p>
+        <time datetime="12-25">Christmas</time><br>
+        <time datetime="2023-04-21">Random day</time><br>
+        <time datetime="12:00">Random hour</time><br>
+        <time datetime="2023-04-21 12:00">Random day and hour</time>
+    </p>
 
-    <section> <!-- section tag should be used to create a section based on the theme of the content -->
     <h2>Quotes</h2>
     <p>
         <cite>
@@ -62,7 +71,18 @@
         </blockquote>
         <bdo dir="rtl">this text is inverted</bdo>
     </p>
-    </section>
+
+    <h2>Code and Pre text</h2>
+    <pre> <!-- This is a tag to keep formatting -->
+        <code> <!-- This is a tag for code view -->
+#include aa
+#include bbb
+
+int main(){
+    return 0;
+}
+        </code>
+    </pre>
 
     <h2>Links</h2>
     <a href="https://google.com" target="_blanck">Google</a> <!-- Target indicates where to open the link -->
