@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+h1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h2{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h3{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h5{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h6{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

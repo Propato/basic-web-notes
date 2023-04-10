@@ -1,0 +1,333 @@
+/* import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*
+Tags with display block have width 100% 
+Tags with inline display have fit-content width
+*/
+
+/* applying the same styling to more than one selector */
+h1{
+    text-align: center;
+}
+
+/******** NAV BAR ********/
+.nav{
+    padding-left: 2%;
+    border: 1px solid yellow;
+    background-color: black;
+    height: 50px;
+}
+
+/* applying a style to an element with two selectors */
+.nav li{
+    float: left;
+    border: 1px solid blue;
+    height: 100%;
+}
+
+.nav li:first-child{
+    float:right;
+    margin-right: 20px;
+}
+
+.nav li a, .dropbtn{
+    border: 1px solid orange;
+    background-color: black;
+    display: inline-block;
+    padding: 15px;
+    height: 100%;
+    color: white;
+}
+
+.nav li a:hover, .dropbtn:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+/*************************/
+
+/*** DROPDOWN ELEMENT ****/
+.dropdown-content{
+    position: absolute;
+    width: 100px;
+    display: none;
+}
+.dropdown:hover .dropbtn{
+    background-color: orange;
+    color: black;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown .dropdown-content a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.dropdown .dropdown-content a:hover{
+    color: black;
+    background: yellow;
+    white-space: normal;
+    width: fit-content;
+    min-width: 100%;
+}
+/*************************/
+
+/****** SIMPLE TEXT ******/
+.Title{
+    border: 2px solid rgb(65, 42, 108);
+    border-radius: 25px;
+    background: cadetblue;
+    max-width: 70%;
+    font-family: 'Lora', serif;
+
+    text-shadow: 2px 3px 5px blue;
+}
+
+p{
+    text-indent: 25px;
+    line-height: 25px;
+    word-spacing: 15px;
+}
+/*************************/
+
+/******** IMAGES ********/
+.image{
+    display: flex;
+    justify-content: center;
+    border: 4px solid rgb(36, 194, 194);
+}
+
+.image img{
+    height: 600px;
+}
+
+.image p{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 10px;
+    position: absolute;
+}
+/************************/
+
+/****** POSITIONS ******/
+.total{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); /* https://cssgradient.io/ */
+
+    height: 500px;
+    position: relative;
+}
+
+.size{
+    display: inline-block;
+    width: 35%;
+    height: 35%;
+    background: rgb(0, 0, 0);
+}
+
+.div1{
+    background: rgb(190, 10, 10);
+    /* box-shadow: 5px 7px 12px rgb(51, 1, 1); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    
+    position: relative; /* position relative to current position */
+    left: 20px;
+    bottom: 20px;
+}
+
+.div2{
+    background: white;
+    color: black;
+
+    position: fixed; /* fixed position on screen  */
+    right: 0;
+}
+.div3{
+    background: rgb(13, 168, 13);
+
+    position: absolute; /* position defined relative to an ancestor with non-static position (static is the default position of elements) */
+    bottom: 0;
+    left: 0;
+
+}
+
+.div4{
+    background: rgb(201, 201, 7);
+
+    position: sticky; /* 'sticks' to the screen when scrolling, it only moves within the parent */
+    top: 15px;
+
+    overflow: auto; /* handles the area of ​​the element when the content is greater than the element */
+}
+/***********************/
+
+/**** MEDIA QUERIES ****/
+.media-queries header{
+    display: block;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.media-queries main{
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    border: 3px solid black;
+    vertical-align: top;
+}
+
+.media-queries #section{
+    background-color: black;
+    border: 3px solid red;
+    vertical-align: top;
+}
+
+.media-queries section{
+    background-color: rgb(226, 125, 43);
+    color: white;
+    border: 3px solid blue;
+}
+
+@media only screen and (max-width: 600px){
+    .media-queries header{
+        height: 40px;
+    }
+    
+    .media-queries main{
+        height: 200px;
+    }
+
+    .media-queries #section{
+        height: 200px;
+    }
+    
+    .media-queries section{
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .media-queries header{
+        height: 50px;
+    }
+    
+    .media-queries main{
+        height: 200px;
+    }
+
+    .media-queries #section{
+        height: 200px;
+    }
+    
+    .media-queries section{
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .media-queries header{
+        height: 50px;
+    }
+    
+    .media-queries main{
+        height: 200px;
+    }
+
+    .media-queries #section{
+        height: 200px;
+    }
+    
+    .media-queries section{
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    
+    .media-queries header{
+        width: 95%;
+        height: 50px;
+    }
+    
+    .media-queries main{
+        height: 300px;
+        width: 90%;
+    }
+
+    .media-queries #section{
+        height: 300px;
+        width: 85%;
+        display: block;
+    }
+    
+    .media-queries section{
+        height: 140px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .media-queries header{
+        width: 1200px;
+        height: 55px;
+    }
+    
+    .media-queries main{
+        height: 400px;
+        width: 500px;
+    }
+    
+    .media-queries #section{
+        height: 400px;
+        width: 500px;
+        display: inline-block;
+    }
+    
+    .media-queries section{
+        height: 190px;
+    }
+}
+/***********************/
+
+/****** FLEX BOX ******/
+.Flexbox{
+    background-color: gray;
+    color: white;
+    display: flex;
+    height: 400px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; this defines that the 'line break' of the blocks occurs */
+    flex-flow: row wrap;
+    justify-content: center; /* arrange items horizontally */
+    align-items: center; /* arranges items vertically on an individual level */
+    align-content: center; /* arranges items vertically at full-content block level */
+}
+
+.Flexbox header{
+    background-color: rgb(155, 216, 32);
+    height: fit-content;
+    flex-grow: 1; /* relates the size of this element to the size of the parent element */
+}
+
+.Flexbox main{
+    background-color: rgb(255, 177, 76);
+    width: 200px;
+    height: 200px;
+    flex: 25%;
+}
+
+.Flexbox div{
+    border: 2px solid black;
+    display: flex;
+    height: fit-content;
+}
+
+.Flexbox div section{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+/**********************/
